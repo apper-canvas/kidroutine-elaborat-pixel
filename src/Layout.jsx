@@ -1,8 +1,8 @@
 import { Outlet, NavLink, useLocation } from 'react-router-dom';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import ApperIcon from './components/ApperIcon';
-import { routeArray } from './config/routes';
+import ApperIcon from '@/components/ApperIcon'; // Corrected import to use alias
+import { routeArray } from '@/config/routes'; // Corrected import to use alias
 
 const Layout = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -68,17 +68,21 @@ const Layout = () => {
             ))}
           </nav>
 
-          {/* Mode Toggle */}
+{/* Mode Toggle - Placeholder for future development if global mode is desired */}
           <div className="p-4 border-t border-gray-200">
             <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
               <div className="flex items-center space-x-2">
                 <ApperIcon name="User" size={16} className="text-gray-600" />
                 <span className="text-sm font-medium text-gray-700">Parent Mode</span>
               </div>
-              <button className="px-3 py-1 text-xs font-medium text-primary bg-purple-100 rounded-full">
+              <button 
+                className="px-3 py-1 text-xs font-medium text-primary bg-purple-100 rounded-full"
+                onClick={() => { /* Implement mode switch logic here */ }}
+              >
                 Switch to Child
               </button>
             </div>
+          </div>
           </div>
         </div>
       </aside>

@@ -1,10 +1,10 @@
-import Home from '../pages/Home';
-import Dashboard from '../pages/Dashboard';
-import Schedule from '../pages/Schedule';
-import Tasks from '../pages/Tasks';
-import Progress from '../pages/Progress';
-import Rewards from '../pages/Rewards';
-import Settings from '../pages/Settings';
+import HomePage from '@/components/pages/HomePage';
+import DashboardPage from '@/components/pages/DashboardPage';
+import SchedulePage from '@/components/pages/SchedulePage';
+import TasksPage from '@/components/pages/TasksPage';
+import ProgressPage from '@/components/pages/ProgressPage';
+import RewardsPage from '@/components/pages/RewardsPage';
+import SettingsPage from '@/components/pages/SettingsPage';
 
 export const routes = {
   home: {
