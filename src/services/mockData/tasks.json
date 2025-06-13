@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "title": "Brush Teeth",
+    "category": "Health",
+    "icon": "🦷",
+    "duration": 5,
+    "points": 10,
+    "instructions": "Brush your teeth for 2 minutes with fluoride toothpaste. Don't forget to brush your tongue too!"
+  },
+  {
+    "id": "2",
+    "title": "Read for 20 minutes",
+    "category": "Learning",
+    "icon": "📚",
+    "duration": 20,
+    "points": 20,
+    "instructions": "Choose a book you enjoy and read quietly for 20 minutes. Try to imagine the story in your head!"
+  },
+  {
+    "id": "3",
+    "title": "Tidy Room",
+    "category": "Chores",
+    "icon": "🧹",
+    "duration": 15,
+    "points": 15,
+    "instructions": "Put toys in their proper places, make your bed, and put dirty clothes in the hamper."
+  },
+  {
+    "id": "4",
+    "title": "Practice Writing",
+    "category": "Learning",
+    "icon": "✏️",
+    "duration": 15,
+    "points": 15,
+    "instructions": "Practice writing letters or words neatly. Take your time and focus on making them look nice!"
+  },
+  {
+    "id": "5",
+    "title": "Help Set Table",
+    "category": "Chores",
+    "icon": "🍽️",
+    "duration": 10,
+    "points": 10,
+    "instructions": "Put plates, cups, and utensils on the table for everyone. Make sure everything is in the right place!"
+  },
+  {
+    "id": "6",
+    "title": "Draw or Color",
+    "category": "Creativity",
+    "icon": "🎨",
+    "duration": 30,
+    "points": 15,
+    "instructions": "Use your imagination to create something beautiful! You can draw, color, or make crafts."
+  },
+  {
+    "id": "7",
+    "title": "Outdoor Play",
+    "category": "Health",
+    "icon": "🏃",
+    "duration": 30,
+    "points": 20,
+    "instructions": "Go outside and play! You can run, jump, ride your bike, or play with friends."
+  },
+  {
+    "id": "8",
+    "title": "Prepare for Bed",
+    "category": "Health",
+    "icon": "🛏️",
+    "duration": 15,
+    "points": 10,
+    "instructions": "Put on pajamas, brush teeth, and get ready for a good night's sleep!"
+  }
+]

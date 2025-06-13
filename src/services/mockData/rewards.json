@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1",
+    "title": "30 minutes extra screen time",
+    "pointsCost": 50,
+    "type": "Privilege",
+    "childId": "1"
+  },
+  {
+    "id": "2",
+    "title": "Choose tonight's dinner",
+    "pointsCost": 75,
+    "type": "Privilege",
+    "childId": "1"
+  },
+  {
+    "id": "3",
+    "title": "Ice cream treat",
+    "pointsCost": 40,
+    "type": "Treat",
+    "childId": "1"
+  },
+  {
+    "id": "4",
+    "title": "Park visit",
+    "pointsCost": 80,
+    "type": "Activity",
+    "childId": "2"
+  },
+  {
+    "id": "5",
+    "title": "Small toy ($10)",
+    "pointsCost": 120,
+    "type": "Toy",
+    "childId": "2"
+  },
+  {
+    "id": "6",
+    "title": "Movie night choice",
+    "pointsCost": 60,
+    "type": "Activity",
+    "childId": "3"
+  },
+  {
+    "id": "7",
+    "title": "Stay up 30 minutes later",
+    "pointsCost": 45,
+    "type": "Privilege",
+    "childId": "3"
+  }
+]

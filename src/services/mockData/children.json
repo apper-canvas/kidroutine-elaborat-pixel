@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "Emma",
+    "age": 8,
+    "avatar": "👧",
+    "points": 145
+  },
+  {
+    "id": "2",
+    "name": "Liam",
+    "age": 6,
+    "avatar": "👦",
+    "points": 89
+  },
+  {
+    "id": "3",
+    "name": "Sophia",
+    "age": 10,
+    "avatar": "🦸‍♀️",
+    "points": 203
+  }
+]
