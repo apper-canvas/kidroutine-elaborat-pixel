@@ -81,8 +81,7 @@ const Layout = () => {
               >
                 Switch to Child
               </button>
-            </div>
-          </div>
+</div>
           </div>
         </div>
       </aside>
