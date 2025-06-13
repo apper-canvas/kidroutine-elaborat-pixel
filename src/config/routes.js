@@ -60,5 +60,3 @@ export const routes = {
 
 // Export array format for Layout.jsx navigation
 export const routeArray = Object.values(routes);
-
-export const routeArray = Object.values(routes);
