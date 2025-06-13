@@ -12,50 +12,53 @@ export const routes = {
     label: 'Home',
     path: '/',
     icon: 'Home',
-    component: Home
+    component: HomePage
   },
   dashboard: {
     id: 'dashboard',
     label: 'Dashboard',
     path: '/dashboard',
     icon: 'LayoutDashboard',
-    component: Dashboard
+    component: DashboardPage
   },
   schedule: {
     id: 'schedule',
     label: 'Schedule',
     path: '/schedule',
     icon: 'Calendar',
-    component: Schedule
+    component: SchedulePage
   },
   tasks: {
     id: 'tasks',
     label: 'Tasks',
     path: '/tasks',
     icon: 'CheckSquare',
-    component: Tasks
+    component: TasksPage
   },
   progress: {
     id: 'progress',
     label: 'Progress',
     path: '/progress',
     icon: 'TrendingUp',
-    component: Progress
+    component: ProgressPage
   },
   rewards: {
     id: 'rewards',
     label: 'Rewards',
     path: '/rewards',
     icon: 'Gift',
-    component: Rewards
+    component: RewardsPage
   },
   settings: {
     id: 'settings',
     label: 'Settings',
     path: '/settings',
     icon: 'Settings',
-    component: Settings
+    component: SettingsPage
   }
 };
+
+// Export array format for Layout.jsx navigation
+export const routeArray = Object.values(routes);
 
 export const routeArray = Object.values(routes);
