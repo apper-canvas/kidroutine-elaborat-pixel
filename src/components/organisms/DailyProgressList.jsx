@@ -6,8 +6,8 @@ const DailyProgressList = ({ dailyProgressData }) => {
   return (
     <Card>
       <Text as="h2" className="text-lg font-semibold text-gray-900 mb-4">Daily Breakdown</Text>
-      <div className="space-y-3">
-        {dailyProgressData &amp;&amp; dailyProgressData.length > 0 ? (
+<div className="space-y-3">
+        {dailyProgressData && dailyProgressData.length > 0 ? (
           dailyProgressData.map((day) => (
             <div key={day.date} className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
               <div className="flex items-center space-x-3">
