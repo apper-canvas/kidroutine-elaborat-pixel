@@ -74,7 +74,7 @@ const ProgressChartSection = ({ progressData }) => {
         </div>
       </div>
       
-      {progressData.daily &amp;&amp; progressData.daily.length > 0 ? (
+{progressData.daily && progressData.daily.length > 0 ? (
         <Chart
           options={chartOptions}
           series={chartSeries}
